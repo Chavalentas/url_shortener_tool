@@ -1,0 +1,41 @@
+.home-container-background{
+    background-repeat: repeat;
+    background-size:contain;
+}
+
+.home-container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.generate-button{
+    margin-top: 10px;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.card-footer{
+    text-align: center;
+}
+
+.button-panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.generated-url-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.error-message{
+    margin-top: 5px;
+    color: red;
+}
